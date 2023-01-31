@@ -83,6 +83,8 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  /* padding: 100px;
+  margin: 0; */
 }
 
 body {
@@ -100,8 +102,49 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+} */
+
+.resource-form {
+  margin-top: 100px;
+}
+
+.active-resource{
+  background-color: #3140aa;
+  padding: 50px;
+  text-align: center;
+  color:white;
+  height: 300px;
+}
+
+.active-resource .resource-name {
+  font-size: 30px;
+  height: 50px;
+}
+.active-resource .elapsed-time {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.active-resource .time-wrapper{
+  height: 100px;
+}
+
+.hero{
+  background-color: #e7eaeac4;
+}
+
+.tag.resource-complete{
+background-color: #2dde2d;
+}
+
+.tag.resource-inactive{
+  background-color: orange;
+}
+
+.tag.resource-active{
+  background-color: #2d8bff;
 }
